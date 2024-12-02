@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Coin with Boost</title>
+  <link rel="stylesheet" href="assets/css/styles2.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Coin Balance Display -->
+    <div id="balance-display">
+      💰 Balance: <span id="balance">0</span>
+    </div>
+
+    <!-- Coin Clicker Section -->
+    <div id="coin-container">
+      <button id="coin-button" class="circle-coin">
+        <img src="assets/image/image.png" alt="Clickable Coin" class="coin-image">
+      </button>
+    </div>
+    
+    <!-- +1 Display Animation -->
+    <div id="increment-display"></div>
+
+    <!-- Boost Section -->
+    <div id="boost-section">
+      <button id="boost-button" class="boost-button">Boost</button>
+      <div id="boost-info">
+        <p>Boost Level: <span id="boost-level">1</span></p>
+        <p>Cost: <span id="boost-cost">100</span> Coins</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/script2.js"></script>
+</body>
+</html>
